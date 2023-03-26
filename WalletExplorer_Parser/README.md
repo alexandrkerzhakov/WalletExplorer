@@ -43,11 +43,11 @@ NewCircuitPeriod 10
 ### *Пояснение к методам из функции **_main_**:
 ### 5. Информация из консоли при запуске **_get_tor_process()_**:
 
-![tor1](Pictures\tor1.png)
+![tor1](Pictures/tor1.png)
 
-![tor2](Pictures\tor2.png)
+![tor2](Pictures/tor2.png)
 
-![tor3](Pictures\tor3.png)
+![tor3](Pictures/tor3.png)
 
 ### 5.1. Блок кода:
 ```
@@ -61,15 +61,15 @@ async def get_page_data из класса RECEIVE_TXID_BY_WALLET()
 В результате выполнения метода в папке **_SHARE_** формируется файл **_{BTC}.csv_**.
 ### Информация из консоли:
 
-![item4](Pictures\item4.png)
+![item4](Pictures/item4.png)
 
 ### Информация из файла **_{BTC}.csv_**:
 
-![item4_1](Pictures\item4_1.png)
+![item4_1](Pictures/item4_1.png)
 
 ### 5.2. Информация из консоли при запуске **_execute_txid()_** (происходит формирование файла **{BTC}_txid.csv** из **_{BTC}.csv_**):
 
-![item5](Pictures\item5.png)
+![item5](Pictures/item5.png)
 
 ### 5.3. Блок кода:
 
@@ -81,10 +81,10 @@ c2 = RECEIVE_COM_BY_TXID()
 
 ### Информация из консоли:
 
-![item5](Pictures\item6.png)
+![item5](Pictures/item6.png)
 
 ### 6. В резульатате формируются 2 файла: **{BTC}_with_com.csv** (из него - **_result.csv_**) с интересующим нас содержимым:
 
-![result](Pictures\result.png)
+![result](Pictures/result.png)
 
 Здесь для примера представлена связь по 1-му TXID с другими криптовалютными кошельками и криптовалютными биржами (в итоговом файле добавлены также дата, время, а также другая информация, определяющая конкретную криптовалютную транзакцию).
